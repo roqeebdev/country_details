@@ -1,13 +1,19 @@
-
-import './NavBar';
-import Pagelayout from './Pagelayout';
-
+import NavBar from "./NavBar";
+import Pagelayout from "./Pagelayout";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import CountryInfo from "./CountryInfo";
 
 function App() {
   return (
-    <div className="App">
-      <Pagelayout/>
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Pagelayout />} />
+          <Route path="/country/:id" element={<CountryInfo/>} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

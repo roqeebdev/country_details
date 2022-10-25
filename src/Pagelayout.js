@@ -1,6 +1,6 @@
 import { useState } from "react";
 import CountryFlag from "./CountryFlag";
-import NavBar from "./NavBar";
+
 import Search from "./Search";
 
 
@@ -15,7 +15,7 @@ const Pagelayout = () => {
         <div>
         
         <div className=" transition-all">
-            <NavBar/>
+            
             <Search searchText = {setSearch} setFilter = {setFilterParam}/>
             <CountryFlag set = {search} filter= {filterParam} />
 
