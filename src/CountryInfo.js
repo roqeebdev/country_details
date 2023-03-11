@@ -36,7 +36,7 @@ const CountryInfo = () => {
           </button>
         </Link>
         <div className="text-center text-2xl font-bold pt-6">
-          Country details not found
+          Checking if country details exist...
         </div>
       </div>
     );
