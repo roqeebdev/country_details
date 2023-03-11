@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-import PageLayout from "./Pagelayout";
+import Pagelayout from "./Pagelayout";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CountryInfo from "./CountryInfo";
 
