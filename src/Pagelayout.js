@@ -11,16 +11,10 @@ const PageLayout = () => {
     const [filterParam, setFilterParam] = useState(['']);
 
 
-    return ( 
-        <div>
-        
+    return (         
         <div className=" transition-all">
-            
             <Search searchText = {setSearch} setFilter = {setFilterParam}/>
             <CountryFlag set = {search} filter= {filterParam} />
-
-        </div>
-
         </div>
              );
 }
