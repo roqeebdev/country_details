@@ -5,7 +5,7 @@ import Search from "./Search";
 
 
 
-const PageLayout = () => {
+const Pagelayout = () => {
 //   const [isLoading, setIsLoading] = useState(true);
     const [search, setSearch] = useState('');
     const [filterParam, setFilterParam] = useState(['']);
@@ -19,4 +19,4 @@ const PageLayout = () => {
              );
 }
  
-export default PageLayout;
+export default Pagelayout;
