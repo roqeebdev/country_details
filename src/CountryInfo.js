@@ -43,7 +43,7 @@ const CountryInfo = () => {
   }
 
   return (
-    <div className="h-screen md:h-screen lg:h-screen">
+    <div className="h-screen">
     <div className=" p-6 py-8 md:px-14 md:p-12 ">
       <Link to={`/`}>
         <button className="dark:text-white border inline-flex items-center py-2 px-4 rounded dark:border-slate-800 dark:bg-slate-700 shadow-lg">
